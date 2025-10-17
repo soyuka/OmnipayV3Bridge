@@ -20,8 +20,7 @@
         }
     ],
     "require": {
-        "php": "^7.2 | ^8.0",
-        "payum/core": "^1.6.1",
+        "payum/core": "dev-master",
         "omnipay/common": "^3.2",
         "php-http/client-implementation": "^1.0"
     },
@@ -51,5 +50,9 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+        "repositories": [
+        {"type": "vcs", "url": "git@github.com:soyuka/Payum"},
+    ]
+
 }
